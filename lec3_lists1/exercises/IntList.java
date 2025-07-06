@@ -27,6 +27,13 @@ public class IntList {
     }
 
     // TODO: Add a get method
+    /** Return the ith item of this IntList. */
+    public int get(int i) {
+        if (i == 0) {
+            return first;
+        }
+        return rest.get(i - 1);
+    }
 
     public static void main(String[] args) {
         IntList L = new IntList(15, null);
