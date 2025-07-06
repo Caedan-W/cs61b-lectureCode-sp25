@@ -8,10 +8,10 @@ public class SLListDemo {
 
 
         // Uncomment to test addLast. Use visualizer to verify
-        // L.addLast(20);
-        // System.out.println(L.getFirst());
+        L.addLast(20);
+        System.out.println(L.getFirst());
 
         // Uncomment to test size
-        // System.out.println(L.size());
+        System.out.println(L.size());
     }
 }
